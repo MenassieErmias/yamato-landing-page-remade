@@ -1,5 +1,6 @@
 import React from 'react';
-import './hero.css'
+import './hero.css';
+import image from '../../assets/Autonomous-portable-tower-no-bg.jpg';
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
           <h1 className="section-header">
             Yamato Engineering
           </h1>
-          <h2 className="section-subheading">
+          <h2 className="section-subheader">
             Empowering the future of water
           </h2>
           <p className="section-paragraph">
@@ -17,7 +18,7 @@ const Hero = () => {
           </p>
         </section>
         <seciton className="section-right">
-
+          <img src={image} alt="hero-image" className="section-img" />
         </seciton>
       </div>
     </main>
